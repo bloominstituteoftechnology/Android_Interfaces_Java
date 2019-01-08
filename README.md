@@ -6,7 +6,7 @@ This assignment will have you write a set of classes which will inherit from a c
 
 ## Requirements
 
-1. Build two interfaces, `AirTravel`, `WaterTravel` and `GroundTravel` with methods for `fly`, `sail`, and `drive`
+1. Build two interfaces, `AirTravel`, `WaterTravel` and `GroundTravel` with methods for `fly`, `sail`, and `drive` respecitvely
 2. Write a single base class called `Vehicle` with an abstract method called `travel`
 > None of these methods will accept or return anything, they will just print out what they are doing and how. The how is imporant, ie the helicopter class will "fly with rotors" the airplane will "fly with wings" the rocket will "fly with fire"
 
