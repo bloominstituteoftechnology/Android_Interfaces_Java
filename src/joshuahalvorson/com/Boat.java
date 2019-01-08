@@ -8,6 +8,6 @@ public class Boat extends Vehicle implements WaterTravel{
 
     @Override
     public void sail() {
-        System.out.println("Boat is sailing");
+        System.out.println("Boat is sailing by wind");
     }
 }
