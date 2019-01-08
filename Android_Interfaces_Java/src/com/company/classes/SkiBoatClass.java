@@ -1,4 +1,7 @@
-package com.company;
+package com.company.classes;
+
+import com.company.Vehicle;
+import com.company.interfaces.WaterTravel;
 
 public class SkiBoatClass extends Vehicle implements WaterTravel {
     @Override
