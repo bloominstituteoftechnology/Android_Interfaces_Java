@@ -8,6 +8,6 @@ public class Bicycle extends Vehicle implements GroundTravel{
 
     @Override
     public void travel() {
-        System.out.println("Bicycle is traveling");
+        drive();
     }
 }

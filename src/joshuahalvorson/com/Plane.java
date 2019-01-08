@@ -8,6 +8,6 @@ public class Plane extends Vehicle implements AirTravel{
 
     @Override
     public void travel() {
-        System.out.println("Plane is traveling");
+        fly();
     }
 }

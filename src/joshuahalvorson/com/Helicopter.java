@@ -8,6 +8,6 @@ public class Helicopter extends Vehicle implements AirTravel{
 
     @Override
     public void travel() {
-        System.out.println("Helicopter is traveling");
+        fly();
     }
 }

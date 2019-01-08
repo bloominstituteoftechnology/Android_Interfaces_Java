@@ -8,7 +8,8 @@ public class Seaplane extends Vehicle implements AirTravel, WaterTravel{
 
     @Override
     public void travel() {
-        System.out.println("Seaplane is traveling");
+        fly();
+        sail();
     }
 
     @Override

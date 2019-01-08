@@ -8,6 +8,6 @@ public class Car extends Vehicle implements GroundTravel{
 
     @Override
     public void travel() {
-        System.out.println("Car is traveling");
+        drive();
     }
 }
