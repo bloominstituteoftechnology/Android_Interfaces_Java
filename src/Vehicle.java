@@ -3,7 +3,7 @@ public abstract class Vehicle {
 
     public Vehicle() {
         System.out.println("Creating " + getClass().getName());
-        System.out.print(getClass().getName() + " travels by ");
-        travel();
+//        System.out.print(getClass().getName() + " travels by ");
+//        travel();
     }
 }
