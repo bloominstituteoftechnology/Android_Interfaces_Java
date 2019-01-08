@@ -10,6 +10,13 @@ public class MagicalShip extends Vehicle implements AirTravel, WaterTravel {
     }
 
     @Override
+    public void callAll() {
+        fly();
+        travel();
+        sail();
+    }
+
+    @Override
     public void sail() {
         System.out.println("The magical ship is cresting over waves.");
     }

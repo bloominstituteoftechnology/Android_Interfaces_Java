@@ -15,6 +15,14 @@ public class DemonicFamiliar extends Vehicle implements AirTravel, GroundTravel,
     }
 
     @Override
+    public void callAll() {
+        fly();
+        drive();
+        travel();
+        sail();
+    }
+
+    @Override
     public void sail() {
         System.out.println("The familiar sprouts a tail and all hands are webbed.");
     }

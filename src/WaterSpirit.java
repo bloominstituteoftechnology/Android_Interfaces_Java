@@ -10,6 +10,13 @@ public class WaterSpirit extends Vehicle implements WaterTravel, GroundTravel {
     }
 
     @Override
+    public void callAll() {
+        drive();
+        travel();
+        sail();
+    }
+
+    @Override
     public void sail() {
         System.out.println("The water spirit weaves its way through bodies of water.");
     }

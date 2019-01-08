@@ -13,4 +13,11 @@ public class Raiju extends Vehicle implements AirTravel, GroundTravel {
     public void travel() {
         System.out.println("The raiju is traveling.");
     }
+
+    @Override
+    public void callAll() {
+        fly();
+        drive();
+        travel();
+    }
 }

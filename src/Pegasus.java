@@ -13,4 +13,11 @@ public class Pegasus extends Vehicle implements AirTravel, GroundTravel {
     public void travel() {
         System.out.println("Pegasus majestically travels through.");
     }
+
+    @Override
+    public void callAll() {
+        fly();
+        drive();
+        travel();
+    }
 }
