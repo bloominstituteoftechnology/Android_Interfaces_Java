@@ -1,3 +1,3 @@
-public interface AirTravel {
+interface AirTravel {
     void fly();
 }

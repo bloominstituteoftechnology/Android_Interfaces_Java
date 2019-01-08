@@ -1,3 +1,3 @@
-public interface GroundTravel {
+interface GroundTravel {
     void drive();
 }

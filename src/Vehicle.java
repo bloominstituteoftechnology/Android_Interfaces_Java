@@ -1,7 +1,7 @@
-public abstract class Vehicle {
+abstract class Vehicle {
     public abstract void travel();
 
-    public Vehicle() {
+    Vehicle() {
         System.out.println("Creating " + getClass().getName());
 //        System.out.print(getClass().getName() + " travels by ");
 //        travel();

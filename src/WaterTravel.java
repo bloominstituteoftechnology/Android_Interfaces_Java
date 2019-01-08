@@ -1,3 +1,3 @@
-public interface WaterTravel {
+interface WaterTravel {
     void sail();
 }
