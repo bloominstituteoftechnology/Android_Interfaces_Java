@@ -9,6 +9,6 @@ public class Yacht extends Vehicle implements WaterTravel {
 
     @Override
     public void travel() {
-sail();
+        sail();
     }
 }

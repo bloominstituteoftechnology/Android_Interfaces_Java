@@ -9,6 +9,6 @@ public class Bicycle extends Vehicle implements GroundTravel {
 
     @Override
     public void travel() {
-drive();
+        drive();
     }
 }
