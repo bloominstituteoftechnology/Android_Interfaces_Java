@@ -1,0 +1,3 @@
+interface GroundTravel {
+    void drive();
+}

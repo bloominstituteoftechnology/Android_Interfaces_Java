@@ -1,0 +1,3 @@
+interface WaterTravel {
+    void sail();
+}

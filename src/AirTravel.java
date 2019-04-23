@@ -1,0 +1,3 @@
+interface AirTravel {
+    void fly();
+}
