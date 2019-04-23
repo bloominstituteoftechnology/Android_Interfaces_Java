@@ -1,3 +1,3 @@
 public interface WaterTravel {
-    public void fly();
+    void sail();
 }
